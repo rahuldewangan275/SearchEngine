@@ -1,0 +1,45 @@
+button{
+background-color: blue;
+}
+input{
+height:40px;
+background-color:white;
+width : 30%;
+border: 3px solid black;
+border-radius:4px;
+margin-top : 180px;
+}
+.history{
+color:white;
+font-size: 17px;
+padding:5px 3px;
+position:fixed;
+right:12px;
+top:8px;
+cursor:pointer;
+}
+.search{
+cursor:pointer;
+color:white;
+}
+
+body{
+text-align:center;
+z-index:1;
+background-color:grey;
+background-image: url("bg.png")
+}
+.resultTable{
+display: inline-block;
+background-color:lightpink;
+z-index:2;
+background-image:url("table.jpg");
+font-weight: bold;
+}
+
+a:hover {
+background-color: grey;
+}
+button:hover {
+background-color: grey;
+}
